@@ -13,3 +13,5 @@ npm start
 ```
 
 Open localhost:1234. Click the `Run Demo` button and look in the console.
+
+![console](./console.png)
