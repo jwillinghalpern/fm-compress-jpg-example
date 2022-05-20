@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>compress jpg</title>
+  </head>
+  <body>
+    <button id="demo">Run Demo</button>
+    <div>Open console to see results</div>
+    <script type="module">
+      import { runDemo } from './index.ts';
+      const button = document.getElementById('demo');
+      button.addEventListener('click', () => {
+        runDemo();
+      });
+    </script>
+  </body>
+</html>
